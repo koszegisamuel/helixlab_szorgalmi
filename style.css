@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/backgroundimage_Op2.jpg);
+}
+
+.time-holder, .image-holder {
+    position: relative;
+}
+
+.time {
+    font-size: 26px;
+    color: rgb(247, 239, 239);
+    font-weight: 700;
+    background: rgba(106, 16, 16, 0.98);
+    display: inline-block;
+    padding: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.container {
+    background: rgba(55, 54, 54, 0.98);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1 {
+    color: rgb(228, 227, 227);
+    font-weight: 550;
+}
+
+.title {
+    padding-top: 15px;
+}
+
+.sun img, .moon img {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    right: 0;   
+}
+
+.moon img {
+    width: 70px;
+}
